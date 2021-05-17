@@ -14,7 +14,7 @@ test("creates a player object", () => {
     expect(player.inventory).toEqual(expect.arrayContaining([expect.any(Object)]));
 });
 
-test("gets player's stats asd an object", () => {
+test("gets player's stats as an object", () => {
     const player = new Player("Dave");
 
     expect(player.getStats()).toHaveProperty("potions");
